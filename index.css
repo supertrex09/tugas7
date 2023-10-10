@@ -1,0 +1,70 @@
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: rgb(207, 86, 86); 
+    background-image: url("https://www.hdwallpapers.in/download/yellow_with_mild_lines_and_white_heart_shapes_hd_yellow_wallpaper_summary-2560x1440.jpg");
+    background-size: cover;
+}
+
+.logo {
+    grid-column: 1;
+    text-align: center; 
+    margin: auto; 
+}
+.container {
+    max-width: 500px; 
+    margin: 50px auto; 
+    background-color: none;
+    padding: 20px;
+    border-radius: 10px; 
+}
+form {
+    border: none;
+    padding: 20px;
+    border-radius: 5px;
+}
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #000000;
+}
+input[type="text"], input[type="email"], select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    background-color: rgb(255, 165, 39);
+    color: #ffffff;
+}
+button {
+    box-shadow: #ccc;
+    background-color: #f2ebeb; 
+    color: rgb(110, 78, 3);
+    padding: 10px 15px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+#result {
+    margin-top: 20px;
+    border: 1px solid #952e2e;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #8e1212;
+    color: #ff4f4f;
+}
+img.logo-image {
+    max-width: 100%;
+    background-color: white;
+    height: auto;
+}
